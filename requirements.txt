@@ -1,0 +1,6 @@
+pandas
+streamlit
+st-gsheets-connection 
+gspread
+google-genai
+python-dotenv

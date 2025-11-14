@@ -1,9 +1,37 @@
-.env
-.streamlit/secrets.toml
+# --- Python ---
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
+*.pdb
+*.egg-info/
+.eggs/
+
+# --- Environments ---
 venv/
 env/
+.Python
+
+# --- Streamlit Secrets ---
+.streamlit/secrets.toml
+.env
+
+# --- Cache folders ---
+ui/__pycache__/
+utils/__pycache__/
+service/__pycache__
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Python build ---
+build/
+dist/
+*.spec
+
+# --- VSCode ---
+.vscode/

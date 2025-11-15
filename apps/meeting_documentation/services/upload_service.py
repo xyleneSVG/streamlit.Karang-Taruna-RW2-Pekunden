@@ -22,6 +22,7 @@ class UploadService:
             b64_content = base64.b64encode(content).decode("utf-8")
             
             payload = {
+                "action": "upload",
                 "name": photo.name,
                 "file": b64_content,
                 "mime": photo.type,
